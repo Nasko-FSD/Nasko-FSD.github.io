@@ -2,65 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Cool Blog</title>
+    <title>Nasko's Blog</title>
     <link type="text/css" rel="stylesheet" href="styles/style.css">
     <script src="scripts/jquery-3.3.1.js"></script>
     <script src="scripts/bootstrap.js"></script>
+
 </head>
 <body>
 <header>
     <div class="navbar navbar-default navbar-fixed-top text-uppercase">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">SoftUni Blog</a>
+                <a class="navbar-brand" href="index.html">Nasko's Blog</a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
             </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="navbar-nav nav navbar-right">
-                        <li><a href="register.html">Register</a></li>
-                        <li><a href="login.html">Login</a></li>
-                    </ul>
-                </div>
+            <div class="navbar-collapse collapse">
+                <ul class="navbar-nav nav navbar-right">
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </header>
 
 <main>
-<div class="container body-content">
-    <div class="row">
-        <div class="col-md-6">
-            <article>
-                <header>
-                    <h2>Nikola Tesla's Early Years</h2>
-                </header>
-                    <p>
-                        Nikola Tesla was born in 1856 in Smiljan, Croatia, then part of the Austro-Hungarian Empire. His father was a priest in the Serbian Orthodox church and his mother managed the family’s farm. In 1863 Tesla’s brother Daniel was killed in a riding accident. The shock of the loss unsettled the 7-year-old Tesla, who reported seeing visions—the first signs of his lifelong mental illnesses.
-
-                        Did you know? During the 1890s Mark Twain struck up a friendship with inventor Nikola Tesla. Twain often visited him in his lab, where in 1894 Tesla photographed the great American writer in one of the first pictures ever lit by phosphorescent light.
-
-                        Tesla studied math and physics at the Technical University of Graz and philosophy at the University of Prague. In 1882, while on a walk, he came up with the idea for a brushless AC motor, making the first sketches of its rotating electromagnets in the sand of the path. Later that year he moved to Paris and got a job repairing direct current (DC) power plants with the Continental Edison Company. Two years later he immigrated to the United States.
-                    </p>
-                    <small class="author"></small>
-
-                    <footer>
-                        <div class="pull-right">
-                        <a class="btn btn-default btn-xs" href="viewpost.html">Read more &raquo;</a>
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-sm-6 col-md-12">
+                    <div class="thumbnail">
+                        <img src="pictures/tesla-article.jpg"/>
+                        <div class="caption text-center">
+                            <h3>Nikola Tesla's Early Years</h3>
+                            <p>
+                                Nikola Tesla was born in 1856 in Smiljan, Croatia, then part of the Austro-Hungarian
+                                Empire. His father was a priest in the Serbian Orthodox church and his mother
+                                managed
+                                the family’s farm. In 1863 Tesla’s brother Daniel was killed in a riding accident.
+                                The
+                                shock of the loss unsettled the 7-year-old Tesla...
+                            </p>
+                            <p>
+                                <a class="btn btn-primary" href="viewpostTesla.html">Read more &raquo;</a>
+                            </p>
                         </div>
-                    </footer>
-            </article>
+                    </div>
+                </div>
+                <div class="container body-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="col-sm-6 col-md-12">
+                                <div class="thumbnail">
+                                    <img src="pictures/investigative-articles.jpg"/>
+                                    <div class="caption text-center">
+                                        <h3>Was CrowdStrike outage a cyberattack?</h3>
+                                        <p>
+                                            CrowdStrike, a prominent cybersecurity platform, has found itself at the
+                                            epicentre of a massive global outage. CrowdStrike's outage affected various
+                                            sectors, causing significant problems for major corporations, airlines and
+                                            even banks. In response to the outage, CrowdStrike CEO has posted a
+                                            statement on X...
+                                        </p>
+                                        <p>
+                                            <a class="btn btn-primary" href="viewpostCrowdStrike.html">Read more
+                                                &raquo;</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 </main>
 
 <footer>
-<div class="container modal-footer">
-    <p>&copy; 2024 - Software University Foundation</p>
-</div>
+    <div class="container modal-footer">
+        <p>&copy; 2024 - Software University Foundation</p>
+    </div>
 </footer>
 </body>
 </html>
